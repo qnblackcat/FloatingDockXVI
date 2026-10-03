@@ -12,12 +12,10 @@
     UITableView * _table;
 
 }
-@property (nonatomic, retain) UIBarButtonItem *killButton;
 @property (nonatomic, retain) UIView *headerView;
 @property (nonatomic, retain) UIImageView *headerImageView;
 @property (nonatomic, retain) UILabel *titleLabel;
 @property (nonatomic, retain) UIImageView *iconView;
-@property (nonatomic, retain) NSArray *versionArray;
 - (void)apply:(UIButton *)sender;
 - (void)twitter:(UIButton *)sender;
 - (void)paypal:(UIButton *)sender;
